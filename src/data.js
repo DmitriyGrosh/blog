@@ -3,14 +3,14 @@ import { getBlogPermalink } from './utils/permalinks';
 export const headerData = {
   links: [
     {
-      text: 'Pages',
+      text: 'Страницы',
       links: [
         {
-          text: 'About us',
+          text: 'Обо мне',
           href: '#',
         },
         {
-          text: 'Contact',
+          text: 'Контакты',
           href: '#',
         },
         // {
@@ -24,7 +24,7 @@ export const headerData = {
       ],
     },
     {
-      text: 'Blog',
+      text: 'Блог',
       href: getBlogPermalink(),
     },
   ],
@@ -32,13 +32,11 @@ export const headerData = {
   
 export const footerData = {
   links: [],
-  secondaryLinks: [
-    // { text: 'Terms', href: getPermalink('/terms') },
-    // { text: 'Privacy Policy', href: getPermalink('/privacy') },
-  ],
+  secondaryLinks: [],
   socialLinks: [
-    { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: '#' },
-    { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/onwidget/astrowind' },
+    { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: 'https://instagram.com/html_grosh?igshid=NzAzN2Q1NTE=' },
+    { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/DmitriyGrosh' },
+    { ariaLabel: 'Telegram', icon: 'tabler:brand-telegram', href: 'https://t.me/rebenokFrameworka' },
   ],
   footNote: `
     <span class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 float-left rounded-sm bg-[url(https://onwidget.com/favicon/favicon-32x32.png)]"></span>

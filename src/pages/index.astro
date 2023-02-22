@@ -14,36 +14,24 @@ const meta = {
 ---
 
 <Layout {meta}>
-  <Hero
-    callToAction={{ text: 'Get template', href: 'https://github.com/onwidget/astrowind', icon: 'tabler:download' }}
-    callToAction2={{ text: 'Learn more', href: '#features' }}
-    image={{ src: import('~/assets/images/hero.png'), alt: 'AstroWind Hero Image' }}
-  >
+  <Hero>
     <Fragment slot="title">
-      Groshidze блог
+      Groshidze блог.
       <span class="text-accent dark:text-white highlight"> React</span> + мысли о фронтенде
     </Fragment>
 
     <Fragment slot="subtitle">
       <span class="hidden sm:inline">
-        <span class="font-semibold">AstroWind</span> is a free, customizable and production-ready template for Astro 2.0 +
-        Tailwind CSS.</span
-      >
-      Suitable for Startups,
-      Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs.
+        <span class="font-semibold">Привет, меня зовут Дима Грош </span>, я фронтенд разработчик из солнечного Ростова-на-Дону.
+      </span>
+      Во оснвоном пишу на React, люблю выступать на конференциях и делиться своими мыслями)
     </Fragment>
   </Hero>
   <Note />
   <LatestPosts
-    title="Find out more content in our Blog"
-    information={`The blog is used to display AstroWind documentation.
-			Each new article will be an important step that you will need to know to be an expert in creating a website using Astro + Tailwind CSS.
-			Astro is a very interesting technology. Thanks.
-		`}
+    title="Узнайте больше в блоге"
+    information={`Блог используется для отображения моих мыслей, статей и докладов. Каждая новая статья будет интересным шагом, который вам помжет узнать, о моем опыте в разработке. Спасибо.`}
     postIds={[
-      'get-started-website-with-astro-tailwind-css.md',
-      'how-to-customize-astrowind-to-your-brand.md',
-      'useful-resources-to-create-websites.md',
       'astrowind-template-in-depth.md',
     ]}
   />
