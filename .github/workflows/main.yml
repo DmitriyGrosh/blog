@@ -16,6 +16,9 @@ jobs:
         run: |
             yarn install
             ls
+            echo "Switch to blog repo"
             cd blog/blog
+            echo "View directory"
             ls
+            echo "start build"
             yarn run build
