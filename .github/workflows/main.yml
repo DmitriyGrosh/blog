@@ -9,8 +9,12 @@ on:
     
 jobs:
   build:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./blog
     steps:
+      - uses: actions/checkout@v1
       - name: Install
         run: |
             yarn install
