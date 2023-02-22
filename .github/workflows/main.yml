@@ -1,0 +1,17 @@
+name: groshidze-blog
+on:
+  push:
+    branches:
+    - main
+  pull_request:
+    branches:
+    - main
+    
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Install
+        run: |
+            yarn install
+            yarn build
