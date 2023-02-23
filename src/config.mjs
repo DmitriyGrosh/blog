@@ -1,15 +1,14 @@
-import defaultImage from './assets/images/default.png';
+import defaultImage from './assets/images/post/react-typescript-eslint-prettier/preview.png';
 
 const CONFIG = {
-  name: 'AstroWind',
+  name: 'Grohsidze blog',
 
   origin: 'https://astrowind.vercel.app',
   basePathname: '/',
   trailingSlash: false,
 
-  title: 'AstroWind — Free template for create a website with Astro + Tailwind CSS',
-  description:
-    '🚀 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs.',
+  title: 'Groshidze blog',
+  description: 'Блог используется для отображения моих мыслей, статей и докладов.',
   defaultImage: defaultImage,
 
   defaultTheme: 'system', // Values: "system" | "light" | "dark" | "light:only" | "dark:only"
