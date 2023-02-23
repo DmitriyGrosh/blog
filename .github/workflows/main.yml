@@ -26,8 +26,6 @@ jobs:
       - uses: actions/checkout@v1
       - name: Deploy
         run: |
-        apt-get update -y
-        apt-get install openssh-client -y
         mkdir -p ~/.ssh
         echo "$SSH_PRIVATE_KEY" | tr -d '\r' > ~/.ssh/id_ed25519
         chmod 700 ~/.ssh/id_ed25519
