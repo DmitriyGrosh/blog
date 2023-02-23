@@ -25,8 +25,6 @@ jobs:
     steps:
       - name: Deploy
       - uses: webfactory/ssh-agent@v0.7.0
-        with:
-          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
         run: |
           apt-get update -y && apt-get install openssh-client -y
           mkdir -p ~/.ssh
