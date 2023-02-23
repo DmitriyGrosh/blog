@@ -23,8 +23,8 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Deploy
       - uses: webfactory/ssh-agent@v0.7.0
+      - name: Deploy
         with:
           ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
       - run: |
