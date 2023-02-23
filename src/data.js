@@ -2,34 +2,34 @@ import { getBlogPermalink } from './utils/permalinks';
 
 export const headerData = {
   links: [
-    {
-      text: 'Страницы',
-      links: [
-        {
-          text: 'Обо мне',
-          href: '#',
-        },
-        {
-          text: 'Контакты',
-          href: '#',
-        },
-        // {
-        //   text: 'Terms',
-        //   href: getPermalink('/terms'),
-        // },
-        // {
-        //   text: 'Privacy policy',
-        //   href: getPermalink('/privacy'),
-        // },
-      ],
-    },
+    // {
+    //   text: 'Страницы',
+    //   links: [
+    //     {
+    //       text: 'Обо мне',
+    //       href: '#',
+    //     },
+    //     {
+    //       text: 'Контакты',
+    //       href: '#',
+    //     },
+    //     // {
+    //     //   text: 'Terms',
+    //     //   href: getPermalink('/terms'),
+    //     // },
+    //     // {
+    //     //   text: 'Privacy policy',
+    //     //   href: getPermalink('/privacy'),
+    //     // },
+    //   ],
+    // },
     {
       text: 'Блог',
       href: getBlogPermalink(),
     },
   ],
 };
-  
+
 export const footerData = {
   links: [],
   secondaryLinks: [],
