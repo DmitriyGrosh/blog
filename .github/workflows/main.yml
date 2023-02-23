@@ -23,9 +23,12 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
+      - uses: webfactory/ssh-agent@v0.7.0
+        with:
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
       - name: Deploy
         run: |
+            apt-get update -y && apt-get install openssh-client -
             mkdir -p ~/.ssh
             echo "$SSH_PRIVATE_KEY" | tr -d '\r' > ~/.ssh/id_ed25519
             chmod 700 ~/.ssh/id_ed25519
