@@ -38,8 +38,6 @@ jobs:
           echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
           chmod 644 ~/.ssh/known_hosts
           ls
-      - uses: actions/checkout@v1
-        run: |
           echo "Init deps..."
           yarn install
           echo "Building app..."
