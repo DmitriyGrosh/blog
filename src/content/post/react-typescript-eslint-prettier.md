@@ -290,7 +290,7 @@ export default defineConfig({
 └── tsconfig.json                    # Параметры компилятора TypeScript
 ```
 
-### Добоавляем скрипты для старта
+### Добавляем скрипты для старта
 
 ```
     "dev": "vite --port 3000",
