@@ -11,7 +11,7 @@ tags:
   - eslint
   - prettier
   - vite
-canonical: https://astrowind.vercel.app/react-typescript-eslint-prettier
+canonical: https://groshidze.tech/react-typescript-eslint-prettier
 ---
 
 ## Инициализация проекта
