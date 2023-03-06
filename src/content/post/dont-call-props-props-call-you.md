@@ -693,3 +693,8 @@ const Component = () => {
 А так буду рад, если вам понравился такой подход к созданию компонент или если он поможет решить вам какую-то задачу на проекте.
 
 Готовый код можете посмотреть [здесь](https://github.com/DmitriyGrosh/react-mobx-starter/tree/develop/src/shared/ui/steps)
+
+### P.S.
+
+Спасибо [Андрею](https://t.me/abelovqt) за помощь при оптимизации компонента, именно он придумал как правильно прокидывать пропсы через Children.map.
+Вот его [GitHub](https://github.com/abelovq)
