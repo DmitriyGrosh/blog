@@ -5,7 +5,7 @@ echo "Building app..."
 yarn build
 
 echo "Deploying files to server..."
-scp -r dist/* groshidze@51.250.51.225:/var/www/groshidze/dist
+scp -r dist/* grosh@158.160.13.159:/var/www/groshidze
 
 echo "Done!"
 
